@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200&display=swap');
+
+  body {
+    font-family: Mukta;
+    background-color: #080705;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16;
+  }
+
+  p {color: #56217F;
+    font-weight: 100;
+
+  }
+  h1{
+    font-family: Fat Face;
+    text-align: center;
+    color: #56217F;
+    line-height: 1;
+  }
+
+  h2 {
+    font-family: Fat Face;
+    text-align: center;
+    color: #575D9E;
+    font-size:larger;
+
+  }
+  a {
+    color: #C8553D;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  a.btn-blue {
+    font-size: medium;
+    font-weight: bold;
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+
+  }
+
+  img.img-circle {
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 8px 8px 16px rgb(0 0 0 / 40%);
+  }
+
+  .card {
+    width: 500px;
+    margin: 25px auto;
+    text-align: center;
+    box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+    padding: 10px;
+    background-color: #F2EFE9;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+
+
+  .buttons {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+  }
+
+  .buttons {
+    margin: 8%;
+    text-align: center;
+  }
+
+  .btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+  .btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+  .btn-hover:focus {
+    outline: none;
+  }
+
+  .btn-hover.color-7{
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
